@@ -1,0 +1,14 @@
+description: Ultralytics YOLOv8n model trained on trainingset/256by256/yolo.yaml
+author: Ultralytics
+date: '2024-10-21T15:04:13.251956'
+version: 8.3.9
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: Colorado Beetle

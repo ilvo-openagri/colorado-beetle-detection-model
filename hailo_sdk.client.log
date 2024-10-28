@@ -1,0 +1,962 @@
+2024-10-02 14:07:49,876 - INFO - parser.py:158 - Translation started on ONNX model yolov9c
+2024-10-02 14:07:49,916 - INFO - parser.py:193 - Restored ONNX model yolov9c (completion time: 00:00:00.04)
+2024-10-02 14:07:50,218 - INFO - parser.py:216 - Extracted ONNXRuntime meta-data for Hailo model (completion time: 00:00:00.34)
+2024-10-02 14:40:33,104 - INFO - main.py:34 - Current Time: 14:40:33, 10/02/24
+2024-10-02 14:40:34,110 - INFO - main.py:46 - CPU: Architecture: x86_64, Model: 13th Gen Intel(R) Core(TM) i7-1370P, Number Of Cores: 20, Utilization: 0.1%
+2024-10-02 14:40:34,110 - INFO - main.py:50 - Memory: Total: 7GB, Available: 4GB
+2024-10-02 14:40:34,111 - INFO - main.py:54 - System info: OS: Linux, Kernel: 5.15.153.1-microsoft-standard-WSL2
+2024-10-02 14:40:34,111 - INFO - main.py:55 - Hailo DFC Version: 3.29.0
+2024-10-02 14:40:34,131 - INFO - main.py:60 - HailoRT Version: Not Installed
+2024-10-02 14:40:34,139 - INFO - main.py:76 - PCIe: No Hailo PCIe device was found
+2024-10-02 14:40:34,139 - INFO - main.py:109 - Running `hailo compile --help`
+2024-10-02 14:40:50,183 - INFO - main.py:34 - Current Time: 14:40:50, 10/02/24
+2024-10-02 14:40:51,188 - INFO - main.py:46 - CPU: Architecture: x86_64, Model: 13th Gen Intel(R) Core(TM) i7-1370P, Number Of Cores: 20, Utilization: 0.2%
+2024-10-02 14:40:51,188 - INFO - main.py:50 - Memory: Total: 7GB, Available: 4GB
+2024-10-02 14:40:51,188 - INFO - main.py:54 - System info: OS: Linux, Kernel: 5.15.153.1-microsoft-standard-WSL2
+2024-10-02 14:40:51,189 - INFO - main.py:55 - Hailo DFC Version: 3.29.0
+2024-10-02 14:40:51,207 - INFO - main.py:60 - HailoRT Version: Not Installed
+2024-10-02 14:40:51,209 - INFO - main.py:76 - PCIe: No Hailo PCIe device was found
+2024-10-02 14:40:51,210 - INFO - main.py:109 - Running `hailo compiler --help`
+2024-10-02 14:42:03,779 - INFO - main.py:34 - Current Time: 14:42:03, 10/02/24
+2024-10-02 14:42:04,786 - INFO - main.py:46 - CPU: Architecture: x86_64, Model: 13th Gen Intel(R) Core(TM) i7-1370P, Number Of Cores: 20, Utilization: 1.2%
+2024-10-02 14:42:04,787 - INFO - main.py:50 - Memory: Total: 7GB, Available: 4GB
+2024-10-02 14:42:04,787 - INFO - main.py:54 - System info: OS: Linux, Kernel: 5.15.153.1-microsoft-standard-WSL2
+2024-10-02 14:42:04,787 - INFO - main.py:55 - Hailo DFC Version: 3.29.0
+2024-10-02 14:42:04,807 - INFO - main.py:60 - HailoRT Version: Not Installed
+2024-10-02 14:42:04,814 - INFO - main.py:76 - PCIe: No Hailo PCIe device was found
+2024-10-02 14:42:04,814 - INFO - main.py:109 - Running `hailo compiler --help --hw-arch hailo8l --model-script yolo256.har`
+2024-10-02 14:42:18,449 - INFO - main.py:34 - Current Time: 14:42:18, 10/02/24
+2024-10-02 14:42:19,455 - INFO - main.py:46 - CPU: Architecture: x86_64, Model: 13th Gen Intel(R) Core(TM) i7-1370P, Number Of Cores: 20, Utilization: 0.4%
+2024-10-02 14:42:19,455 - INFO - main.py:50 - Memory: Total: 7GB, Available: 4GB
+2024-10-02 14:42:19,455 - INFO - main.py:54 - System info: OS: Linux, Kernel: 5.15.153.1-microsoft-standard-WSL2
+2024-10-02 14:42:19,456 - INFO - main.py:55 - Hailo DFC Version: 3.29.0
+2024-10-02 14:42:19,474 - INFO - main.py:60 - HailoRT Version: Not Installed
+2024-10-02 14:42:19,476 - INFO - main.py:76 - PCIe: No Hailo PCIe device was found
+2024-10-02 14:42:19,477 - INFO - main.py:109 - Running `hailo compiler --hw-arch hailo8l --model-script yolo256.har`
+2024-10-02 14:42:41,080 - INFO - main.py:34 - Current Time: 14:42:41, 10/02/24
+2024-10-02 14:42:42,085 - INFO - main.py:46 - CPU: Architecture: x86_64, Model: 13th Gen Intel(R) Core(TM) i7-1370P, Number Of Cores: 20, Utilization: 0.0%
+2024-10-02 14:42:42,085 - INFO - main.py:50 - Memory: Total: 7GB, Available: 4GB
+2024-10-02 14:42:42,086 - INFO - main.py:54 - System info: OS: Linux, Kernel: 5.15.153.1-microsoft-standard-WSL2
+2024-10-02 14:42:42,086 - INFO - main.py:55 - Hailo DFC Version: 3.29.0
+2024-10-02 14:42:42,104 - INFO - main.py:60 - HailoRT Version: Not Installed
+2024-10-02 14:42:42,107 - INFO - main.py:76 - PCIe: No Hailo PCIe device was found
+2024-10-02 14:42:42,107 - INFO - main.py:109 - Running `hailo compiler --hw-arch hailo8l --har_path yolo256.har`
+2024-10-02 14:42:53,507 - INFO - main.py:34 - Current Time: 14:42:53, 10/02/24
+2024-10-02 14:42:54,513 - INFO - main.py:46 - CPU: Architecture: x86_64, Model: 13th Gen Intel(R) Core(TM) i7-1370P, Number Of Cores: 20, Utilization: 0.2%
+2024-10-02 14:42:54,514 - INFO - main.py:50 - Memory: Total: 7GB, Available: 4GB
+2024-10-02 14:42:54,514 - INFO - main.py:54 - System info: OS: Linux, Kernel: 5.15.153.1-microsoft-standard-WSL2
+2024-10-02 14:42:54,514 - INFO - main.py:55 - Hailo DFC Version: 3.29.0
+2024-10-02 14:42:54,529 - INFO - main.py:60 - HailoRT Version: Not Installed
+2024-10-02 14:42:54,533 - INFO - main.py:76 - PCIe: No Hailo PCIe device was found
+2024-10-02 14:42:54,533 - INFO - main.py:109 - Running `hailo compiler --hw-arch hailo8l yolo256.har`
+2024-10-02 14:42:55,694 - INFO - compiler_cli.py:81 - Compiling network
+2024-10-02 14:42:55,695 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/input_layer1 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,695 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv1 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,695 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv2 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,696 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv3 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,696 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/slice1 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,696 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/slice2 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,696 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv4 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,697 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv5 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,697 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat1 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,697 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv6 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,697 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/avgpool1 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,698 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv7 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,698 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv8 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,698 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/slice3 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,698 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/slice4 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,699 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv10 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,699 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv11 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,699 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv12 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,699 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv9 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,700 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add1 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,700 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv13 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,700 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv14 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,700 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add2 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,700 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv15 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,701 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv16 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,701 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add3 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,701 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat2 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,701 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv17 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,701 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv18 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,702 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv19 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,702 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv20 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,702 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv21 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,703 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv22 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,703 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add4 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,703 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv23 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,703 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv24 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,704 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add5 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,704 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv25 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,705 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv26 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,705 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add6 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,706 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat3 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,706 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv27 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,706 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv28 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,706 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat4 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,707 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv29 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,707 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/avgpool2 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,707 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv30 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,707 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv31 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,708 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/slice5 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,708 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/slice6 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,708 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv32 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,708 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv33 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,708 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv34 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,709 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv35 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,709 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add7 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,709 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv36 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,709 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv37 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,709 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add8 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,710 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv38 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,710 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv39 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,710 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add9 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,710 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat5 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,711 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv40 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,711 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv41 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,711 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv42 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,712 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv43 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,712 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv44 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,712 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv45 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,713 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add10 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,713 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv46 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,713 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv47 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,713 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add11 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,713 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv48 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,714 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv49 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,714 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add12 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,714 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat6 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,714 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv50 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,715 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv51 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,715 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat7 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,715 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv52 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,715 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/avgpool3 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,715 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv53 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,716 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv54 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,716 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/slice7 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,716 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/slice8 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,716 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv55 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,717 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv56 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,717 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv57 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,717 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv58 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,717 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add13 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,717 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv59 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,718 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv60 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,718 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add14 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,718 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv61 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,718 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv62 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,718 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add15 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,719 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat8 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,719 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv63 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,719 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv64 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,719 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv65 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,720 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv66 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,720 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv67 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,720 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv68 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,720 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add16 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,720 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv69 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,721 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv70 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,721 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add17 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,721 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv71 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,721 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv72 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,722 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add18 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,722 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat9 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,722 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv73 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,722 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv74 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,723 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat10 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,723 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv75 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,723 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv76 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,723 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/maxpool1 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,723 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/maxpool2 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,724 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/maxpool3 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,724 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat11 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,724 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv77 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,724 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/resize1 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,725 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat12 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,725 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv78 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,725 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/slice10 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,726 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/slice9 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,726 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv79 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,726 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv80 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,726 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv81 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,727 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv82 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,728 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add19 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,728 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv83 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,729 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv84 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,729 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add20 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,730 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv85 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,730 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv86 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,730 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add21 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,731 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat13 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,731 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv87 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,732 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv88 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,732 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv89 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,733 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv90 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,733 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv91 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,734 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv92 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,734 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add22 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,734 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv93 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,734 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv94 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,735 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add23 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,735 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv95 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,735 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv96 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,735 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add24 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,736 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat14 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,736 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv97 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,736 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv98 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,736 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat15 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,736 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv99 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,737 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/resize2 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,737 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat16 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,737 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv100 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,737 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/slice11 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,738 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/slice12 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,738 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv101 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,738 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv102 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,738 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv103 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,738 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv104 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,739 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add25 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,739 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv105 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,739 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv106 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,739 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add26 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,740 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv107 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,740 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv108 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,740 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add27 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,740 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat17 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,740 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv109 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,741 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv110 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,741 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv111 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,741 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv112 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,741 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv113 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,742 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv114 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,742 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add28 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,742 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv115 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,742 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv116 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,743 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add29 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,743 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv117 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,743 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv118 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,743 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add30 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,744 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat18 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,744 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv119 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,744 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv120 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,744 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat19 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,745 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv121 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,745 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/avgpool4 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,745 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv122 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,745 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv123 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,746 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv124 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,746 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat20 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,746 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv125 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,746 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv126 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,747 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv127 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,747 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv128 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,747 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv129 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,747 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/output_layer1 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,747 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/output_layer2 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,748 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/slice13 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,748 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/slice14 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,748 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv130 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,748 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv131 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,749 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv132 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,749 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv133 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,749 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add31 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,749 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv134 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,750 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv135 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,750 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add32 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,751 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv136 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,751 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv137 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,751 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add33 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,752 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat21 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,752 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv138 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,752 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv139 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,752 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv140 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,753 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv141 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,753 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv142 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,754 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv143 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,754 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add34 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,755 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv144 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,755 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv145 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,755 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add35 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,756 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv146 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,756 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv147 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,756 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add36 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,757 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat22 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,757 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv148 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,757 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv149 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,758 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat23 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,758 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv150 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,758 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/avgpool5 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,758 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv151 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,759 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv152 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,759 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv153 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,759 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat24 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,759 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv154 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,759 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv155 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,760 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv156 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,760 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv157 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,760 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv158 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,760 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/output_layer3 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,761 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/output_layer4 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,761 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/slice15 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,761 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/slice16 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,761 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv159 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,761 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv160 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,762 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv161 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,762 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv162 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,762 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add37 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,762 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv163 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,763 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv164 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,763 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add38 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,763 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv165 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,763 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv166 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,764 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add39 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,764 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat25 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,764 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv167 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,764 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv168 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,765 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv169 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,765 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv170 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,765 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv171 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,765 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv172 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,766 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add40 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,766 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv173 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,767 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv174 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,767 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add41 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,767 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv175 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,768 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv176 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,768 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add42 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,768 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat26 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,768 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv177 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,769 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv178 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,769 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat27 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,769 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv179 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,769 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv180 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,770 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv181 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,770 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv182 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,770 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv183 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,771 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv184 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,771 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv185 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,771 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/output_layer5 has implicit precision config during compilation, filling default values
+2024-10-02 14:42:55,771 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/output_layer6 has implicit precision config during compilation, filling default values
+2024-10-02 14:43:41,219 - INFO - main.py:34 - Current Time: 14:43:41, 10/02/24
+2024-10-02 14:43:42,225 - INFO - main.py:46 - CPU: Architecture: x86_64, Model: 13th Gen Intel(R) Core(TM) i7-1370P, Number Of Cores: 20, Utilization: 0.3%
+2024-10-02 14:43:42,225 - INFO - main.py:50 - Memory: Total: 7GB, Available: 4GB
+2024-10-02 14:43:42,226 - INFO - main.py:54 - System info: OS: Linux, Kernel: 5.15.153.1-microsoft-standard-WSL2
+2024-10-02 14:43:42,226 - INFO - main.py:55 - Hailo DFC Version: 3.29.0
+2024-10-02 14:43:42,247 - INFO - main.py:60 - HailoRT Version: Not Installed
+2024-10-02 14:43:42,252 - INFO - main.py:76 - PCIe: No Hailo PCIe device was found
+2024-10-02 14:43:42,252 - INFO - main.py:109 - Running `hailo compiler --hw-arch hailo8l yolo256.har --help`
+2024-10-02 14:45:48,513 - INFO - main.py:34 - Current Time: 14:45:48, 10/02/24
+2024-10-02 14:45:49,518 - INFO - main.py:46 - CPU: Architecture: x86_64, Model: 13th Gen Intel(R) Core(TM) i7-1370P, Number Of Cores: 20, Utilization: 0.0%
+2024-10-02 14:45:49,518 - INFO - main.py:50 - Memory: Total: 7GB, Available: 4GB
+2024-10-02 14:45:49,519 - INFO - main.py:54 - System info: OS: Linux, Kernel: 5.15.153.1-microsoft-standard-WSL2
+2024-10-02 14:45:49,519 - INFO - main.py:55 - Hailo DFC Version: 3.29.0
+2024-10-02 14:45:49,533 - INFO - main.py:60 - HailoRT Version: Not Installed
+2024-10-02 14:45:49,536 - INFO - main.py:76 - PCIe: No Hailo PCIe device was found
+2024-10-02 14:45:49,537 - INFO - main.py:109 - Running `hailo --help`
+2024-10-02 14:48:04,063 - INFO - main.py:34 - Current Time: 14:48:04, 10/02/24
+2024-10-02 14:48:05,070 - INFO - main.py:46 - CPU: Architecture: x86_64, Model: 13th Gen Intel(R) Core(TM) i7-1370P, Number Of Cores: 20, Utilization: 0.4%
+2024-10-02 14:48:05,071 - INFO - main.py:50 - Memory: Total: 7GB, Available: 4GB
+2024-10-02 14:48:05,071 - INFO - main.py:54 - System info: OS: Linux, Kernel: 5.15.153.1-microsoft-standard-WSL2
+2024-10-02 14:48:05,071 - INFO - main.py:55 - Hailo DFC Version: 3.29.0
+2024-10-02 14:48:05,087 - INFO - main.py:60 - HailoRT Version: Not Installed
+2024-10-02 14:48:05,089 - INFO - main.py:76 - PCIe: No Hailo PCIe device was found
+2024-10-02 14:48:05,089 - INFO - main.py:109 - Running `hailo compiler --hw-arch hailo8l yolo256.har`
+2024-10-02 14:48:06,271 - INFO - compiler_cli.py:81 - Compiling network
+2024-10-02 14:48:06,271 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/input_layer1 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,271 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv1 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,272 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv2 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,272 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv3 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,272 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/slice1 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,273 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/slice2 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,273 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv4 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,273 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv5 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,273 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat1 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,274 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv6 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,274 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/avgpool1 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,274 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv7 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,275 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv8 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,275 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/slice3 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,275 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/slice4 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,275 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv10 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,275 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv11 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,276 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv12 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,276 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv9 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,276 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add1 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,277 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv13 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,277 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv14 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,277 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add2 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,277 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv15 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,278 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv16 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,278 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add3 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,278 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat2 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,278 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv17 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,279 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv18 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,279 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv19 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,279 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv20 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,280 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv21 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,280 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv22 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,280 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add4 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,281 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv23 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,281 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv24 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,282 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add5 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,282 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv25 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,283 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv26 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,283 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add6 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,283 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat3 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,283 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv27 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,284 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv28 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,284 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat4 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,285 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv29 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,285 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/avgpool2 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,285 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv30 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,286 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv31 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,286 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/slice5 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,286 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/slice6 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,287 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv32 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,287 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv33 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,287 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv34 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,288 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv35 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,288 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add7 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,288 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv36 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,289 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv37 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,289 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add8 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,289 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv38 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,289 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv39 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,290 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add9 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,290 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat5 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,290 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv40 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,291 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv41 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,291 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv42 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,291 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv43 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,292 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv44 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,292 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv45 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,292 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add10 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,293 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv46 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,293 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv47 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,293 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add11 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,293 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv48 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,294 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv49 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,294 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add12 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,294 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat6 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,295 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv50 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,295 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv51 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,295 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat7 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,295 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv52 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,296 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/avgpool3 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,296 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv53 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,296 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv54 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,297 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/slice7 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,297 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/slice8 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,297 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv55 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,298 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv56 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,298 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv57 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,299 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv58 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,299 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add13 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,299 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv59 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,300 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv60 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,300 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add14 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,301 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv61 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,301 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv62 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,302 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add15 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,302 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat8 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,302 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv63 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,303 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv64 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,303 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv65 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,304 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv66 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,304 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv67 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,305 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv68 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,305 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add16 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,305 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv69 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,306 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv70 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,306 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add17 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,306 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv71 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,307 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv72 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,307 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add18 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,307 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat9 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,308 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv73 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,308 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv74 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,309 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat10 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,309 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv75 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,309 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv76 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,310 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/maxpool1 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,310 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/maxpool2 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,310 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/maxpool3 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,310 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat11 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,311 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv77 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,311 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/resize1 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,311 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat12 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,312 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv78 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,312 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/slice10 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,313 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/slice9 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,313 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv79 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,313 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv80 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,314 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv81 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,314 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv82 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,315 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add19 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,315 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv83 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,315 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv84 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,316 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add20 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,316 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv85 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,316 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv86 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,317 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add21 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,318 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat13 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,318 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv87 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,318 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv88 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,319 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv89 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,320 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv90 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,320 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv91 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,321 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv92 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,321 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add22 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,321 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv93 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,322 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv94 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,322 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add23 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,323 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv95 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,323 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv96 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,323 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add24 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,324 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat14 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,324 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv97 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,325 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv98 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,325 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat15 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,325 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv99 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,326 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/resize2 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,326 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat16 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,326 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv100 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,326 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/slice11 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,327 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/slice12 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,327 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv101 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,327 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv102 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,327 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv103 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,328 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv104 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,328 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add25 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,328 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv105 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,329 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv106 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,329 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add26 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,329 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv107 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,329 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv108 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,330 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add27 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,330 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat17 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,330 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv109 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,331 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv110 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,331 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv111 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,331 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv112 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,331 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv113 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,332 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv114 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,332 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add28 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,332 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv115 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,332 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv116 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,333 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add29 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,333 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv117 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,333 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv118 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,333 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add30 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,334 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat18 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,334 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv119 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,334 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv120 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,335 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat19 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,335 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv121 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,335 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/avgpool4 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,335 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv122 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,336 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv123 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,336 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv124 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,337 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat20 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,337 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv125 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,337 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv126 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,337 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv127 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,338 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv128 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,338 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv129 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,338 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/output_layer1 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,339 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/output_layer2 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,339 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/slice13 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,339 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/slice14 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,339 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv130 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,340 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv131 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,340 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv132 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,340 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv133 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,341 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add31 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,341 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv134 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,341 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv135 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,342 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add32 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,342 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv136 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,342 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv137 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,342 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add33 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,343 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat21 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,343 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv138 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,343 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv139 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,344 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv140 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,344 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv141 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,344 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv142 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,345 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv143 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,345 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add34 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,345 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv144 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,346 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv145 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,346 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add35 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,346 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv146 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,347 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv147 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,347 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add36 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,347 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat22 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,348 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv148 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,348 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv149 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,348 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat23 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,349 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv150 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,349 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/avgpool5 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,349 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv151 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,349 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv152 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,350 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv153 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,350 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat24 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,350 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv154 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,351 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv155 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,351 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv156 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,351 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv157 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,352 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv158 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,352 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/output_layer3 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,352 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/output_layer4 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,353 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/slice15 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,353 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/slice16 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,353 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv159 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,354 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv160 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,354 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv161 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,354 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv162 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,355 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add37 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,355 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv163 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,355 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv164 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,355 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add38 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,356 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv165 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,356 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv166 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,356 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add39 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,357 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat25 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,357 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv167 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,357 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv168 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,357 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv169 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,358 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv170 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,358 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv171 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,358 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv172 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,359 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add40 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,359 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv173 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,359 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv174 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,360 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add41 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,360 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv175 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,360 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv176 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,360 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/ew_add42 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,361 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat26 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,361 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv177 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,361 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv178 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,361 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/concat27 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,362 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv179 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,362 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv180 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,362 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv181 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,363 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv182 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,363 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv183 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,363 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv184 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,363 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/conv185 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,364 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/output_layer5 has implicit precision config during compilation, filling default values
+2024-10-02 14:48:06,364 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256/output_layer6 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:21,434 - INFO - main.py:34 - Current Time: 14:49:21, 10/02/24
+2024-10-02 14:49:22,439 - INFO - main.py:46 - CPU: Architecture: x86_64, Model: 13th Gen Intel(R) Core(TM) i7-1370P, Number Of Cores: 20, Utilization: 0.0%
+2024-10-02 14:49:22,440 - INFO - main.py:50 - Memory: Total: 7GB, Available: 4GB
+2024-10-02 14:49:22,440 - INFO - main.py:54 - System info: OS: Linux, Kernel: 5.15.153.1-microsoft-standard-WSL2
+2024-10-02 14:49:22,440 - INFO - main.py:55 - Hailo DFC Version: 3.29.0
+2024-10-02 14:49:22,457 - INFO - main.py:60 - HailoRT Version: Not Installed
+2024-10-02 14:49:22,459 - INFO - main.py:76 - PCIe: No Hailo PCIe device was found
+2024-10-02 14:49:22,459 - INFO - main.py:109 - Running `hailo parser tf --hw-arch hailo8l yolo256_saved_model/yolo256_float32.tflite`
+2024-10-02 14:49:23,849 - INFO - parser.py:72 - Translation started on Tensorflow model yolo256_float32
+2024-10-02 14:49:29,405 - INFO - parser_cli.py:227 - According to recommendations, retrying parsing with end node names: ['model_10/tf.concat_25/concat', 'model_10/tf.concat_29/concat', 'model_10/tf.concat_20/concat'].
+2024-10-02 14:49:29,422 - INFO - parser.py:72 - Translation started on Tensorflow model yolo256_float32
+2024-10-02 14:49:29,810 - INFO - parser.py:373 - Start nodes mapped from original model: 'inputs_0': 'yolo256_float32/input_layer1'.
+2024-10-02 14:49:29,810 - INFO - parser.py:374 - End nodes mapped from original model: 'model_10/tf.concat_25/concat', 'model_10/tf.concat_29/concat', 'model_10/tf.concat_20/concat'.
+2024-10-02 14:49:29,888 - INFO - parser.py:110 - Translation completed on Tensorflow model yolo256_float32 (completion time: 00:00:00.47)
+2024-10-02 14:49:31,164 - INFO - client_runner.py:1831 - Saved HAR to: /home/jbauwens/Documents/Code/openagri_ai/trained_models/yolo256_float32.har
+2024-10-02 14:49:45,550 - INFO - main.py:34 - Current Time: 14:49:45, 10/02/24
+2024-10-02 14:49:46,555 - INFO - main.py:46 - CPU: Architecture: x86_64, Model: 13th Gen Intel(R) Core(TM) i7-1370P, Number Of Cores: 20, Utilization: 0.1%
+2024-10-02 14:49:46,556 - INFO - main.py:50 - Memory: Total: 7GB, Available: 4GB
+2024-10-02 14:49:46,556 - INFO - main.py:54 - System info: OS: Linux, Kernel: 5.15.153.1-microsoft-standard-WSL2
+2024-10-02 14:49:46,556 - INFO - main.py:55 - Hailo DFC Version: 3.29.0
+2024-10-02 14:49:46,573 - INFO - main.py:60 - HailoRT Version: Not Installed
+2024-10-02 14:49:46,576 - INFO - main.py:76 - PCIe: No Hailo PCIe device was found
+2024-10-02 14:49:46,576 - INFO - main.py:109 - Running `hailo compiler --hw-arch hailo8l yolo256_float32.har`
+2024-10-02 14:49:47,755 - INFO - compiler_cli.py:81 - Compiling network
+2024-10-02 14:49:47,756 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/input_layer1 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,756 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv1 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,756 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv2 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,756 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv3 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,757 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/slice1 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,757 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/slice2 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,757 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv4 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,757 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv5 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,758 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/concat1 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,758 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv6 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,758 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/avgpool1 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,758 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv7 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,758 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv8 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,759 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/slice3 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,759 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/slice4 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,759 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv10 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,759 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv11 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,759 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv12 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,760 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv9 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,760 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add1 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,761 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv13 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,761 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv14 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,761 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add2 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,761 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv15 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,762 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv16 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,762 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add3 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,763 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/concat2 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,763 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv17 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,763 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv18 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,764 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv19 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,764 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv20 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,765 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv21 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,765 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv22 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,765 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add4 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,766 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv23 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,766 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv24 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,766 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add5 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,766 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv25 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,767 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv26 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,767 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add6 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,767 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/concat3 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,767 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv27 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,768 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv28 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,768 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/concat4 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,768 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv29 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,769 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/avgpool2 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,769 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv30 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,769 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv31 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,769 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/slice5 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,770 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/slice6 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,770 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv32 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,770 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv33 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,770 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv34 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,771 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv35 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,771 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add7 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,771 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv36 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,771 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv37 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,772 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add8 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,772 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv38 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,772 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv39 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,772 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add9 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,772 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/concat5 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,773 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv40 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,773 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv41 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,773 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv42 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,773 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv43 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,773 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv44 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,774 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv45 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,774 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add10 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,774 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv46 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,774 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv47 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,774 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add11 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,775 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv48 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,775 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv49 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,775 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add12 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,775 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/concat6 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,775 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv50 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,776 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv51 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,776 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/concat7 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,776 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv52 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,776 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/avgpool3 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,777 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv53 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,777 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv54 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,777 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/slice7 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,777 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/slice8 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,777 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv55 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,778 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv56 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,778 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv57 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,778 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv58 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,778 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add13 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,779 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv59 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,779 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv60 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,779 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add14 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,780 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv61 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,780 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv62 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,780 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add15 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,781 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/concat8 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,781 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv63 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,781 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv64 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,781 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv65 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,782 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv66 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,782 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv67 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,782 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv68 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,783 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add16 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,783 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv69 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,784 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv70 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,784 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add17 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,784 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv71 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,784 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv72 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,785 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add18 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,785 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/concat9 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,785 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv73 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,785 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv74 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,786 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/concat10 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,787 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv75 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,787 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv76 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,787 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/maxpool1 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,788 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/maxpool2 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,788 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/maxpool3 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,788 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/concat11 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,788 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv77 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,789 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/resize1 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,789 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/concat12 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,789 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv78 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,789 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/slice10 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,790 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/slice9 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,790 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv79 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,790 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv80 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,790 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv81 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,791 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv82 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,791 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add19 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,791 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv83 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,791 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv84 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,792 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add20 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,792 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv85 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,792 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv86 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,792 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add21 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,792 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/concat13 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,793 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv87 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,793 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv88 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,793 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv89 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,793 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv90 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,794 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv91 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,794 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv92 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,794 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add22 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,794 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv93 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,794 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv94 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,795 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add23 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,795 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv95 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,795 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv96 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,795 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add24 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,796 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/concat14 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,796 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv97 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,796 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv98 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,796 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/concat15 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,797 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv99 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,797 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/resize2 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,797 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/concat16 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,797 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv100 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,798 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/slice11 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,798 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/slice12 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,798 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv101 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,799 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv102 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,801 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv103 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,801 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv104 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,802 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add25 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,802 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv105 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,803 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv106 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,804 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add26 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,805 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv107 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,806 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv108 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,806 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add27 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,806 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/concat17 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,806 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv109 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,807 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv110 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,807 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv111 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,808 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv112 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,808 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv113 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,808 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv114 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,808 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add28 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,809 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv115 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,809 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv116 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,809 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add29 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,809 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv117 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,810 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv118 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,810 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add30 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,810 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/concat18 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,810 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv119 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,810 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv120 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,811 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/concat19 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,811 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv121 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,811 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/avgpool4 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,811 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv122 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,812 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv123 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,812 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv124 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,812 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/concat20 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,812 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv125 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,813 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv126 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,813 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv127 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,813 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv128 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,813 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/concat21 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,814 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv129 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,814 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/output_layer1 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,814 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/slice13 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,814 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/slice14 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,815 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv130 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,815 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv131 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,815 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv132 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,815 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv133 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,816 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add31 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,816 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv134 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,816 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv135 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,816 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add32 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,817 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv136 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,817 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv137 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,817 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add33 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,817 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/concat22 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,818 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv138 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,818 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv139 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,818 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv140 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,819 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv141 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,819 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv142 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,819 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv143 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,819 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add34 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,820 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv144 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,820 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv145 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,820 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add35 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,820 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv146 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,821 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv147 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,821 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add36 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,821 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/concat23 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,821 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv148 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,822 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv149 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,822 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/concat24 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,822 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv150 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,822 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/avgpool5 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,823 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv151 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,823 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv152 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,823 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv153 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,823 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/concat25 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,824 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv154 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,824 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv155 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,824 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv156 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,824 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv157 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,824 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/concat26 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,825 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv158 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,825 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/output_layer2 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,825 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/slice15 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,825 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/slice16 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,826 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv159 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,826 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv160 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,827 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv161 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,828 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv162 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,828 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add37 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,829 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv163 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,829 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv164 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,829 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add38 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,829 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv165 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,830 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv166 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,830 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add39 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,830 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/concat27 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,831 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv167 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,831 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv168 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,831 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv169 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,831 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv170 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,832 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv171 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,832 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv172 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,832 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add40 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,832 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv173 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,833 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv174 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,833 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add41 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,833 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv175 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,833 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv176 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,834 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/ew_add42 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,834 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/concat28 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,834 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv177 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,834 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv178 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,835 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/concat29 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,835 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv179 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,835 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv180 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,835 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv181 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,836 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv182 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,836 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv183 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,836 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv184 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,836 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/conv185 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,837 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/concat30 has implicit precision config during compilation, filling default values
+2024-10-02 14:49:47,837 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer yolo256_float32/output_layer3 has implicit precision config during compilation, filling default values

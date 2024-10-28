@@ -1,0 +1,111 @@
+2024-10-02 16:32:36,404 - INFO - main.py:34 - Current Time: 16:32:36, 10/02/24
+2024-10-02 16:32:37,410 - INFO - main.py:46 - CPU: Architecture: x86_64, Model: 13th Gen Intel(R) Core(TM) i7-1370P, Number Of Cores: 20, Utilization: 0.2%
+2024-10-02 16:32:37,411 - INFO - main.py:50 - Memory: Total: 7GB, Available: 5GB
+2024-10-02 16:32:37,411 - INFO - main.py:54 - System info: OS: Linux, Kernel: 5.15.153.1-microsoft-standard-WSL2
+2024-10-02 16:32:37,411 - INFO - main.py:55 - Hailo DFC Version: 3.29.0
+2024-10-02 16:32:37,427 - INFO - main.py:60 - HailoRT Version: Not Installed
+2024-10-02 16:32:37,432 - INFO - main.py:76 - PCIe: No Hailo PCIe device was found
+2024-10-02 16:32:37,433 - INFO - main.py:109 - Running `hailo parser tf --hel`
+2024-10-02 16:32:55,062 - INFO - main.py:34 - Current Time: 16:32:55, 10/02/24
+2024-10-02 16:32:56,067 - INFO - main.py:46 - CPU: Architecture: x86_64, Model: 13th Gen Intel(R) Core(TM) i7-1370P, Number Of Cores: 20, Utilization: 0.2%
+2024-10-02 16:32:56,068 - INFO - main.py:50 - Memory: Total: 7GB, Available: 5GB
+2024-10-02 16:32:56,068 - INFO - main.py:54 - System info: OS: Linux, Kernel: 5.15.153.1-microsoft-standard-WSL2
+2024-10-02 16:32:56,069 - INFO - main.py:55 - Hailo DFC Version: 3.29.0
+2024-10-02 16:32:56,090 - INFO - main.py:60 - HailoRT Version: Not Installed
+2024-10-02 16:32:56,093 - INFO - main.py:76 - PCIe: No Hailo PCIe device was found
+2024-10-02 16:32:56,093 - INFO - main.py:109 - Running `hailo parser tf --hw-arch hailo8l`
+2024-10-02 16:33:09,120 - INFO - main.py:34 - Current Time: 16:33:09, 10/02/24
+2024-10-02 16:33:10,125 - INFO - main.py:46 - CPU: Architecture: x86_64, Model: 13th Gen Intel(R) Core(TM) i7-1370P, Number Of Cores: 20, Utilization: 0.2%
+2024-10-02 16:33:10,125 - INFO - main.py:50 - Memory: Total: 7GB, Available: 5GB
+2024-10-02 16:33:10,125 - INFO - main.py:54 - System info: OS: Linux, Kernel: 5.15.153.1-microsoft-standard-WSL2
+2024-10-02 16:33:10,125 - INFO - main.py:55 - Hailo DFC Version: 3.29.0
+2024-10-02 16:33:10,137 - INFO - main.py:60 - HailoRT Version: Not Installed
+2024-10-02 16:33:10,139 - INFO - main.py:76 - PCIe: No Hailo PCIe device was found
+2024-10-02 16:33:10,139 - INFO - main.py:109 - Running `hailo parser tf --hw-arch hailo8l model.tflite`
+2024-10-02 16:33:11,462 - INFO - parser.py:72 - Translation started on Tensorflow model model
+2024-10-02 16:33:19,341 - INFO - parser_cli.py:227 - According to recommendations, retrying parsing with end node names: ['StatefulPartitionedCall:01'].
+2024-10-02 16:33:19,356 - INFO - parser.py:72 - Translation started on Tensorflow model model
+2024-10-02 16:33:19,377 - INFO - parser.py:373 - Start nodes mapped from original model: 'serving_default_input_1:0': 'model/input_layer1'.
+2024-10-02 16:33:19,377 - INFO - parser.py:374 - End nodes mapped from original model: 'StatefulPartitionedCall:01'.
+2024-10-02 16:33:19,379 - INFO - parser.py:110 - Translation completed on Tensorflow model model (completion time: 00:00:00.02)
+2024-10-02 16:33:19,546 - INFO - client_runner.py:1831 - Saved HAR to: /home/jbauwens/Documents/Code/openagri_ai/trained_models/model64/model.har
+2024-10-02 16:33:45,176 - INFO - main.py:34 - Current Time: 16:33:45, 10/02/24
+2024-10-02 16:33:46,183 - INFO - main.py:46 - CPU: Architecture: x86_64, Model: 13th Gen Intel(R) Core(TM) i7-1370P, Number Of Cores: 20, Utilization: 0.4%
+2024-10-02 16:33:46,183 - INFO - main.py:50 - Memory: Total: 7GB, Available: 5GB
+2024-10-02 16:33:46,183 - INFO - main.py:54 - System info: OS: Linux, Kernel: 5.15.153.1-microsoft-standard-WSL2
+2024-10-02 16:33:46,184 - INFO - main.py:55 - Hailo DFC Version: 3.29.0
+2024-10-02 16:33:46,202 - INFO - main.py:60 - HailoRT Version: Not Installed
+2024-10-02 16:33:46,203 - INFO - main.py:76 - PCIe: No Hailo PCIe device was found
+2024-10-02 16:33:46,204 - INFO - main.py:109 - Running `hailo compile --help`
+2024-10-02 16:34:01,397 - INFO - main.py:34 - Current Time: 16:34:01, 10/02/24
+2024-10-02 16:34:02,402 - INFO - main.py:46 - CPU: Architecture: x86_64, Model: 13th Gen Intel(R) Core(TM) i7-1370P, Number Of Cores: 20, Utilization: 0.2%
+2024-10-02 16:34:02,403 - INFO - main.py:50 - Memory: Total: 7GB, Available: 5GB
+2024-10-02 16:34:02,403 - INFO - main.py:54 - System info: OS: Linux, Kernel: 5.15.153.1-microsoft-standard-WSL2
+2024-10-02 16:34:02,403 - INFO - main.py:55 - Hailo DFC Version: 3.29.0
+2024-10-02 16:34:02,423 - INFO - main.py:60 - HailoRT Version: Not Installed
+2024-10-02 16:34:02,426 - INFO - main.py:76 - PCIe: No Hailo PCIe device was found
+2024-10-02 16:34:02,426 - INFO - main.py:109 - Running `hailo compiler`
+2024-10-02 16:34:27,163 - INFO - main.py:34 - Current Time: 16:34:27, 10/02/24
+2024-10-02 16:34:28,168 - INFO - main.py:46 - CPU: Architecture: x86_64, Model: 13th Gen Intel(R) Core(TM) i7-1370P, Number Of Cores: 20, Utilization: 0.2%
+2024-10-02 16:34:28,169 - INFO - main.py:50 - Memory: Total: 7GB, Available: 5GB
+2024-10-02 16:34:28,169 - INFO - main.py:54 - System info: OS: Linux, Kernel: 5.15.153.1-microsoft-standard-WSL2
+2024-10-02 16:34:28,169 - INFO - main.py:55 - Hailo DFC Version: 3.29.0
+2024-10-02 16:34:28,183 - INFO - main.py:60 - HailoRT Version: Not Installed
+2024-10-02 16:34:28,186 - INFO - main.py:76 - PCIe: No Hailo PCIe device was found
+2024-10-02 16:34:28,186 - INFO - main.py:109 - Running `hailo compiler --hw-arch hailo8l model.har`
+2024-10-02 16:34:28,368 - INFO - compiler_cli.py:81 - Compiling network
+2024-10-02 16:34:28,368 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer model/input_layer1 has implicit precision config during compilation, filling default values
+2024-10-02 16:34:28,369 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer model/conv1 has implicit precision config during compilation, filling default values
+2024-10-02 16:34:28,369 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer model/maxpool1 has implicit precision config during compilation, filling default values
+2024-10-02 16:34:28,369 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer model/conv2 has implicit precision config during compilation, filling default values
+2024-10-02 16:34:28,369 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer model/maxpool2 has implicit precision config during compilation, filling default values
+2024-10-02 16:34:28,369 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer model/conv3 has implicit precision config during compilation, filling default values
+2024-10-02 16:34:28,370 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer model/maxpool3 has implicit precision config during compilation, filling default values
+2024-10-02 16:34:28,370 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer model/fc1 has implicit precision config during compilation, filling default values
+2024-10-02 16:34:28,370 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer model/fc2 has implicit precision config during compilation, filling default values
+2024-10-02 16:34:28,371 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer model/softmax1 has implicit precision config during compilation, filling default values
+2024-10-02 16:34:28,371 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer model/output_layer1 has implicit precision config during compilation, filling default values
+2024-10-03 11:19:17,469 - INFO - main.py:34 - Current Time: 11:19:17, 10/03/24
+2024-10-03 11:19:18,477 - INFO - main.py:46 - CPU: Architecture: x86_64, Model: 13th Gen Intel(R) Core(TM) i7-1370P, Number Of Cores: 20, Utilization: 0.2%
+2024-10-03 11:19:18,477 - INFO - main.py:50 - Memory: Total: 7GB, Available: 4GB
+2024-10-03 11:19:18,477 - INFO - main.py:54 - System info: OS: Linux, Kernel: 5.15.153.1-microsoft-standard-WSL2
+2024-10-03 11:19:18,478 - INFO - main.py:55 - Hailo DFC Version: 3.29.0
+2024-10-03 11:19:18,493 - INFO - main.py:60 - HailoRT Version: Not Installed
+2024-10-03 11:19:18,499 - INFO - main.py:76 - PCIe: No Hailo PCIe device was found
+2024-10-03 11:19:18,499 - INFO - main.py:109 - Running `hailo parser tf --hw-arch hailo8l model.quant.tflite`
+2024-10-03 11:19:18,503 - INFO - hailo_nn.py:1634 - Found a '.' character in net_name, which isn't supported. New net_name is model_quant
+2024-10-03 11:19:19,915 - INFO - parser.py:72 - Translation started on Tensorflow model model_quant
+2024-10-03 11:19:35,737 - INFO - parser_cli.py:227 - According to recommendations, retrying parsing with end node names: ['StatefulPartitionedCall:01'].
+2024-10-03 11:19:35,761 - INFO - parser.py:72 - Translation started on Tensorflow model model_quant
+2024-10-03 11:19:35,811 - INFO - parser.py:373 - Start nodes mapped from original model: 'serving_default_input_1:0': 'model_quant/input_layer1'.
+2024-10-03 11:19:35,812 - INFO - parser.py:374 - End nodes mapped from original model: 'StatefulPartitionedCall:01'.
+2024-10-03 11:19:35,821 - INFO - parser.py:110 - Translation completed on Tensorflow model model_quant (completion time: 00:00:00.06)
+2024-10-03 11:19:36,116 - INFO - client_runner.py:1831 - Saved HAR to: /home/jbauwens/Documents/Code/openagri_ai/trained_models/model64/model_quant.har
+2024-10-03 11:19:59,903 - INFO - main.py:34 - Current Time: 11:19:59, 10/03/24
+2024-10-03 11:20:00,910 - INFO - main.py:46 - CPU: Architecture: x86_64, Model: 13th Gen Intel(R) Core(TM) i7-1370P, Number Of Cores: 20, Utilization: 0.2%
+2024-10-03 11:20:00,911 - INFO - main.py:50 - Memory: Total: 7GB, Available: 4GB
+2024-10-03 11:20:00,911 - INFO - main.py:54 - System info: OS: Linux, Kernel: 5.15.153.1-microsoft-standard-WSL2
+2024-10-03 11:20:00,911 - INFO - main.py:55 - Hailo DFC Version: 3.29.0
+2024-10-03 11:20:00,926 - INFO - main.py:60 - HailoRT Version: Not Installed
+2024-10-03 11:20:00,928 - INFO - main.py:76 - PCIe: No Hailo PCIe device was found
+2024-10-03 11:20:00,928 - INFO - main.py:109 - Running `hailo compiler --hw-arch hailo8l model_quant.har`
+2024-10-03 11:20:01,101 - INFO - compiler_cli.py:81 - Compiling network
+2024-10-03 11:20:01,101 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer model_quant/input_layer1 has implicit precision config during compilation, filling default values
+2024-10-03 11:20:01,101 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer model_quant/conv1 has implicit precision config during compilation, filling default values
+2024-10-03 11:20:01,101 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer model_quant/maxpool1 has implicit precision config during compilation, filling default values
+2024-10-03 11:20:01,102 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer model_quant/conv2 has implicit precision config during compilation, filling default values
+2024-10-03 11:20:01,102 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer model_quant/maxpool2 has implicit precision config during compilation, filling default values
+2024-10-03 11:20:01,102 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer model_quant/conv3 has implicit precision config during compilation, filling default values
+2024-10-03 11:20:01,102 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer model_quant/maxpool3 has implicit precision config during compilation, filling default values
+2024-10-03 11:20:01,102 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer model_quant/fc1 has implicit precision config during compilation, filling default values
+2024-10-03 11:20:01,103 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer model_quant/fc2 has implicit precision config during compilation, filling default values
+2024-10-03 11:20:01,103 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer model_quant/softmax1 has implicit precision config during compilation, filling default values
+2024-10-03 11:20:01,103 - DEPRECATION_WARNING - hailo_nn.py:1546 - Layer model_quant/output_layer1 has implicit precision config during compilation, filling default values
+2024-10-03 11:39:09,830 - INFO - main.py:34 - Current Time: 11:39:09, 10/03/24
+2024-10-03 11:39:10,840 - INFO - main.py:46 - CPU: Architecture: x86_64, Model: 13th Gen Intel(R) Core(TM) i7-1370P, Number Of Cores: 20, Utilization: 0.2%
+2024-10-03 11:39:10,841 - INFO - main.py:50 - Memory: Total: 7GB, Available: 4GB
+2024-10-03 11:39:10,841 - INFO - main.py:54 - System info: OS: Linux, Kernel: 5.15.153.1-microsoft-standard-WSL2
+2024-10-03 11:39:10,842 - INFO - main.py:55 - Hailo DFC Version: 3.29.0
+2024-10-03 11:39:10,858 - INFO - main.py:60 - HailoRT Version: Not Installed
+2024-10-03 11:39:10,863 - INFO - main.py:76 - PCIe: No Hailo PCIe device was found
+2024-10-03 11:39:10,863 - INFO - main.py:109 - Running `hailo tutorial`
