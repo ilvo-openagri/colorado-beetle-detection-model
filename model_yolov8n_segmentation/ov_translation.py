@@ -1,4 +1,4 @@
 from ultralytics import YOLO
 
 model = YOLO("model.pt")
-model.export(format="openvino")
+model.export(format="ncnn")
