@@ -1,0 +1,19 @@
+This work was developed by EV ILVO within the OpenAgri project, funded by the
+European Union's Horizon Europe research and innovation programme under grant
+agreement No. 101134083.
+
+Views and opinions expressed are those of the author(s) only and do not
+necessarily reflect those of the European Union or the granting authority.
+Neither the European Union nor the granting authority can be held responsible
+for them.
+
+The detection and segmentation models in this repository use the Ultralytics
+YOLO framework. Ultralytics identifies AGPL-3.0 as its open-source software
+license; see its licensing information at
+https://www.ultralytics.com/legal/agpl-3-0-software-license.
+
+The repository also includes model exports for Hailo hardware (`.hef` and
+`.har`) and formats generated using other third-party software. The license in
+this repository does not replace any separate license or terms applicable to
+third-party tools, runtimes, or materials. Review applicable upstream terms
+before redistribution. The complete training dataset is not included here.
